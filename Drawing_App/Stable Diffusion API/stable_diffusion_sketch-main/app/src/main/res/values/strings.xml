@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Stable Diffusion Sketch</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="add_paint">Add Paint</string>
+    <string name="title_activity_drawing">DrawingActivity</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="stroke_width">Stroke Width</string>
+    <string name="stroke_color">Stroke Color</string>
+    <string name="save_sketch">Save Sketch</string>
+    <string name="delete_sketch">Delete Sketch</string>
+    <string name="ok">OK</string>
+    <string-array name="cnmode_options">
+        <item>img2img with Scribble</item>
+        <item>img2img with Depth</item>
+        <item>img2img with Pose</item>
+        <item>txt2img with Canny</item>
+        <item>txt2img with Scribble</item>
+        <item>txt2img with Depth</item>
+        <item>Inpaint on background</item>
+        <item>Inpaint on sketch</item>
+        <item>Inpaint on sketch with background depth</item>
+        <item>Custom Mode 1</item>
+        <item>Custom Mode 2</item>
+        <item>Custom Mode 3</item>
+        <item>Custom Mode 4</item>
+    </string-array>
+    <string-array name="sd_size_options">
+        <item>512px</item>
+        <item>768px</item>
+        <item>1024px</item>
+        <item>1280px</item>
+    </string-array>
+    <string-array name="sd_aspect_options">
+        <item>1:1 (square)</item>
+        <item>3:4 (portrait)</item>
+        <item>4:3 (landscape)</item>
+    </string-array>
+</resources>
